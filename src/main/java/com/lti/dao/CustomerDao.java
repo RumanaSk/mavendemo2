@@ -47,8 +47,7 @@ public class CustomerDao {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
-		} catch (Exception e) {
-			e.printStackTrace();
+		
 		} finally {
 
 			try {
