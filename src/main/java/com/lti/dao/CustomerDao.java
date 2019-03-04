@@ -35,7 +35,7 @@ public class CustomerDao {
 				e1.printStackTrace();
 			}
 
-			String sql = "insert into customer values (? ,? , ?)";
+			String sql = "insert into customer8545 values (? ,? , ?)";
 
 			try {
 				stmt = conn.prepareStatement(sql);
