@@ -27,7 +27,7 @@ public class CustomerDao {
 			Class.forName(p.getProperty("driverClassName"));
 			conn = DriverManager.getConnection(p.getProperty("url"), p.getProperty("username"),
 					p.getProperty("password"));
-		} catch (ClassNotFoundException | IOException e) {
+		} catch (Exception e) {
 			try {
 				throw new SQLException(e.getMessage());
 			} catch (SQLException e1) {
